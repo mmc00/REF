@@ -20,8 +20,9 @@ Donde: $BFP_{t}$ es el balance fiscal primario
 
 Cuando comparamos el balance financiero es necesario comparar el pago de interéses, mediante la deuda en el periodo anterior y la tasa de interés
 $$
-BFF_{t} = IF_{t} - GF_{t} + i_{t} * D_{t-1} \\
-
+BFF_{t} = IF_{t} - GF_{t} + i_{t} * D_{t-1} 
+$$
+$$
 BFF_{t} = BFP_{t} + i_{t} * D_{t-1}
 $$
 Donde: $BFF_{t}$ es el balance fiscal financiero
