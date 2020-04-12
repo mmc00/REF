@@ -1,0 +1,35 @@
+---
+title: "Ecuación de Blanchard"
+author: "Marlon Molina C."
+date: "2020-04-12"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## La dinámica de la deuda
+
+La restricción presupuestaria de un gobierno biene dada por la diferencia de sus ingresos y sus gastos intertemporalmente, es decir:
+
+$$
+BFP_{t} = IF_{t} - GF_{t}
+$$
+Donde: $BFP_{t}$ es el balance fiscal primario
+       $IF_{t}$ ingreso fiscal
+       $GF_{t}$ gasto fiscal
+
+Cuando comparamos el balance financiero es necesario comparar el pago de interéses, mediante la deuda en el periodo anterior y la tasa de interés
+$$
+BFF_{t} = IF_{t} - GF_{t} + i_{t} * D_{t-1} \\
+
+BFF_{t} = BFP_{t} + i_{t} * D_{t-1}
+$$
+Donde: $BFF_{t}$ es el balance fiscal financiero
+       $i_t$ tasa de interés
+       $D_{t-1}$ deuda en el periodo anterior
+       
+Según Argandoña, Gaméz y Mochón, para que la deuda acumulada no siga una senda explosiva, su valor descontado de su stock en $t$ debe ser cero.
+```{r}
+
+```
+
